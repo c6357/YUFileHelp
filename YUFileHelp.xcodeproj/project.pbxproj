@@ -14,6 +14,7 @@
 		679C983D1B6E186000C60E57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679C983C1B6E186000C60E57 /* Images.xcassets */; };
 		679C98401B6E186000C60E57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 679C983E1B6E186000C60E57 /* LaunchScreen.xib */; };
 		679C984C1B6E186000C60E57 /* YUFileHelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 679C984B1B6E186000C60E57 /* YUFileHelpTests.m */; };
+		679C98581B6E189A00C60E57 /* FileHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 679C98571B6E189A00C60E57 /* FileHelp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		679C98451B6E186000C60E57 /* YUFileHelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUFileHelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		679C984A1B6E186000C60E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		679C984B1B6E186000C60E57 /* YUFileHelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YUFileHelpTests.m; sourceTree = "<group>"; };
+		679C98561B6E189A00C60E57 /* FileHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelp.h; sourceTree = "<group>"; };
+		679C98571B6E189A00C60E57 /* FileHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		679C982E1B6E186000C60E57 /* YUFileHelp */ = {
 			isa = PBXGroup;
 			children = (
+				679C98551B6E188C00C60E57 /* FileHelp */,
 				679C98331B6E186000C60E57 /* AppDelegate.h */,
 				679C98341B6E186000C60E57 /* AppDelegate.m */,
 				679C98361B6E186000C60E57 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				679C984A1B6E186000C60E57 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		679C98551B6E188C00C60E57 /* FileHelp */ = {
+			isa = PBXGroup;
+			children = (
+				679C98561B6E189A00C60E57 /* FileHelp.h */,
+				679C98571B6E189A00C60E57 /* FileHelp.m */,
+			);
+			path = FileHelp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				679C98381B6E186000C60E57 /* ViewController.m in Sources */,
 				679C98351B6E186000C60E57 /* AppDelegate.m in Sources */,
+				679C98581B6E189A00C60E57 /* FileHelp.m in Sources */,
 				679C98321B6E186000C60E57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
